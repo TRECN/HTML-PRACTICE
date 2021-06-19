@@ -5,11 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url('resource/img_chania.jpg');
+            /*to stop repeat*/
+            background-repeat: no-repeat;    
+            /*to cover the entire element*/
+            /* background-size: cover;     */
+            /*to strech and fill the background*/
+            background-size: 100% 100%;
+            /*to make sure the entire element is covered*/
+            background-attachment: fixed;
+            }
+            div{
+                background-repeat: no-repeat;
+            }
+    </style>
 </head>
 <body>
-    <!--setting background image using div and inline css-->
-    <div>
-        
-    </div>
+    <!--setting background image to a div element in inline css-->
+    <div style="background-image: url('resource/img_girl.jpg');">
+    Lorem ipsum, dolor sit amet consectetur a <br>
+    dipisicing elit. Repellat, pariatur <br>
+    tenetur laborum vel magnam quisquam <br>
+    sapiente nesciunt <br>
+    <br><br>
+     corporis velit id maiores, <br> 
+    quidem sed, fugiat autem <br>
+    dolores dicta dolorum culpa doloremque.</div>  
 </body>
 </html>
