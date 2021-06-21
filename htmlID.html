@@ -25,6 +25,7 @@
     </style>
 </head>
 <body>
+    <button onclick="displayResult()">change</button>
     <h1 id="myHeader">we are using id here</h1>
     <!--a class name can be used by multiple HTML element,
     while an id name must only be used by one HTML element within the page-->
@@ -88,6 +89,13 @@
 <h2>Chapter 14</h2>
 <p>This chapter explains ba bla bla</p>
 
+
+<!--using the id attribute in JavaScript-->
+<script>
+    function displayResult(){
+        document.getElementById("myHeader").innerHTML="Have a nice day"
+    }
+</script>
 
 </body>
 </html>
