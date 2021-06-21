@@ -13,6 +13,7 @@
             border: 1px solid blue;
             padding: 20px;
             margin: 3px;
+            display: block;
         }
     </style>
 </head>
@@ -37,6 +38,32 @@
     <!--using class attribute in JavaScript-->
     <h2>Use of class attribute in JavaScript</h2>
     <p>CLick the button to hid all elements with class name "clitu</p>
+
+    <button onclick="myFunction()">Hide element</button>
     
+    <button onclick="myFunction1()">show element</button>
+    <h2 class="city">London</h2>
+    <p>London is the clapital of england</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <script>
+        function myFunction(){
+            var x=document.getElementsByClassName("city");
+            for(var i=0;i<x.length;i++){
+                x[i].style.display="none";
+            }
+        }
+        function myFunction1(){
+            var x=document.getElementsByClassName("city");
+            for(var i=0;i<x.length;i++){
+                x[i].style.display="block";
+            }
+        }
+    </script>
 </body>
 </html>
