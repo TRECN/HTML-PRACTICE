@@ -8,7 +8,10 @@
     <!--Internal javaScript -->
     <script>
         function demoJs(){
-            var x=document.getElementById('pp').innerHTML="Rishabh";
+            var x=document.getElementById('pp');
+            x.innerHTML="Rishabh";
+            x.style.border="2px solid red";
+            
         }
     </script>
 </head>
@@ -23,7 +26,7 @@
         click me to show date and time
     </button>
     <p id="demo"></p>
-
+    
     <p onclick="demoJs()" id="pp" style="cursor: pointer;" >rishabh</p>
 
 </body>
