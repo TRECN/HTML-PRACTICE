@@ -13,5 +13,13 @@
 
         <!--using the max-width property prevents the img to scale-->
         <img src="resource/img_chania.jpg" style="max-width: 100%; height: auto;">
+
+        <!--show different pictures depending on browser width-->
+        <picture>
+            <source srcset="resource/img_smallflower.jpg" media="(max-width: 600px)">
+            <source srcset="resource/img_flowers.jpg" media="(max-width: 1500px)">
+            <source srcset="resource/flowers.jpg">
+            <img src="resource/img_flowers.jpg" alt="Flowers" style="width:auto;">
+          </picture>
 </body>
 </html>
