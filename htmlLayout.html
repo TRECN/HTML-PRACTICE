@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /*adding font*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         *{
             margin: 0;
         }
@@ -21,16 +25,31 @@
             color:white;
         }
         /*css for nav bar*/
+        
         nav ul{
             display: flex;
             list-style-type: none;
+            padding: 0;
             background-color: rgb(173, 173, 146);
         }
         li a{
-            padding: 3px;
+            padding: 30px;
             font-size: 2rem;
             color: gray;
             text-decoration: none;
+            font-size: 20px;
+        }
+        article{
+            padding:20px;
+            float: left;
+            width: 70%;
+            background-color: #dadada;
+            height: 300px;
+        }
+        section{
+            content: "";
+            display: table;
+            clear: both;
         }
     </style>
 </head>
@@ -52,7 +71,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        
+        <!--adding content-->
         <article>
             <h1>London</h1>
             <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
