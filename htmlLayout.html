@@ -30,6 +30,7 @@
             float: left;
             width: 30%;
             background-color:#ccc;
+            height: 300px;
             padding: 20px;
         }
         nav ul{
@@ -56,7 +57,7 @@
             clear: both;
         }
 
-        
+
         
         /* Style the footer */
 footer {
@@ -64,6 +65,15 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media(max-width:600px){
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
 }
     </style>
 </head>
