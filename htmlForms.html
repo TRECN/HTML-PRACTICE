@@ -8,39 +8,21 @@
 </head>
 <body>
     <!--form syntax and element-->
-        <form action="">
-            <!--label is used to show text label for the form elements-->
-            <!--'for' in label is used to link it to a element through there id-->
-            <!--here label is linked to text field of id fname-->
-            <label for="fname">Enter your name:</label><br>
-            <!--input an be used in many forms:
-                like button, checkbox, radioutton, text, submit-->
+      
             
-            <!--text field-->
-            <input type="text" value="" id="fname"><br>
-            <!--here label is linked to text field of id froll-->
-            <label for="froll">Enter roll no:</label><br>
-            <!--text field-->
-            <input type="text" value="" id="froll">
-            <br>
-            <!--button-->
-            <input type="button" value="submit" id="submit" onclick="clicked()">
-            
-        </form>
-        <h1 id="print"></h1>
-        <h2 id="print2"></h2>
-        <script src="javaScript/form.js"></script>
-        <br>
-        <br>
-        <h2>select element and its option</h2>
         <!--select-->
         <label for="place">Choose a place:</label>
         <select name="cars" id="place">
             <option value="ranchi">ranchi</option>
-            <option value="delhi">delhi</option>
-            <option value="mumbai">mumbai</option>
-            <option value="bengaluru">bengaluru</option>
+            <option value="delhi" >delhi</option>
+            <option value="mumbai" >mumbai</option>
+            <option value="bengaluru" >bengaluru</option>
+            
         </select>
+        <input type="button" value="show" id="show" onclick="clickedd()">
+        <h2 id="print3"></h2>
+        </form>
         
+        <script src="javaScript/form.js"></script>
 </body>
 </html>
