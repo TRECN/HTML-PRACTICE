@@ -1,2 +1,3 @@
-var x=document.getElementById('submit');
-x
+function clicked(){
+    var x=document.getElementById
+}
